@@ -1,0 +1,427 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ================= Nav lista === === === */
+.sekcija-1{
+    display: flex;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+    min-width: 100%;
+    height: 746px;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    background-color:transparent;
+    height: 68px;
+    width: 1440px;
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+nav{
+    display: flex;
+}
+/* ===== Header ========= */
+
+.logo{
+    width: 143px;
+    height: 34px;
+    margin-top: 8px;
+    margin-left: 135px;
+}
+.nav-div-linkovi{
+    width: 306px;
+    height: 16px;
+}
+.nav-div-linkovi ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 306px;
+    height: 14px;
+    margin-top: 18px;
+    margin-left: 72px;
+}
+.nav-div-linkovi ul a{
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #656464; 
+}
+.nav-home{
+    font-weight: 600 !important;
+    color:#0e0101 !important;
+}
+
+
+.strelica{
+    padding: 2px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    border: solid #656464;
+    border-width: 0px 1.5px 1.5px 0px;
+    display: inline-block;
+
+    transform: rotate(45deg);
+}
+.padajuci-meni{
+    display:none;
+    position: absolute;
+    width: 92px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+}
+.padajuci-meni a{
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    background-color: #fff;
+}
+.div-podmeni:hover .padajuci-meni{
+    display:block;
+    color:red;
+}
+
+.nav-pretraga{
+    /* margin-left: 379px; */
+    margin-left: 430px;
+    margin-top: 18px;
+    width: 105px;
+    height: 18px; 
+    color: rgb(35, 32, 32);
+    padding-bottom: 15px;
+    border: 1px solid transparent;
+    border-bottom: 1.5px solid #E5E5E5 ; 
+
+    background-color: transparent;
+    padding-left: 20px;
+    background-image: url("./slike/vectorr.png");
+    background-repeat: no-repeat;
+    background-position:0px 4px;
+}
+   
+.nav-dgm-login{
+    margin-left: 42px;
+    
+    margin-top: 2px;
+    width: 123px;
+    height: 50px;
+    border: solid transparent;
+    background-color: #217BF4;
+    color: white;
+    cursor: pointer;
+    border-radius: 14px;
+    opacity: 0px;
+}
+.nav-dgm-login:hover{
+    background-color: #3368ae;
+}
+
+
+/* === === === === === === === ===  Sekcija 2 === === === === === === === === === */
+.linija{
+    width: 100%;
+    height: 1px;
+    background-color:  #217BF4;
+    opacity: 10%;
+}
+
+.sekcija-jedan-div{
+    /* background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%); */
+    height: 746px;
+    width: 1440px;
+    display: flex;
+    
+    align-items: center;  
+   
+}
+/* ============================================= */
+.sekcija-jedan-text{
+    background-color:transparent;
+    width: 515px;
+    height: 366px;
+    margin-top: 0px;
+    margin-left: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.sekcija1-text{ 
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:rgba(101, 100, 100, 1);
+}
+
+.dugme-netbook-community{
+    width: 177px;
+    height: 36px;
+    border-radius: 8px;
+    border-color: transparent;
+    color:#217BF4;
+    background-color: rgba(33, 123, 244, 0.1);
+    cursor: pointer;
+}
+.dugme-netbook-community:active{ background-color: rgba(33, 123, 244, 0.3);
+    cursor: pointer; 
+transform: scale(0.9); }
+
+.dugme-about{
+    width: 162px;
+    height: 62px;
+    border-radius: 14px;
+    border-color: transparent;
+    background: rgba(33, 123, 244, 1);
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+}
+.dugme-invite{
+    width: 167px;
+    height: 62px;
+    border-radius: 14px;
+    border: 1px;
+    opacity: 0.5px;
+    border: 1px solid rgba(33, 123, 244, 1);
+    background-color: transparent;
+    color: rgba(33, 123, 244, 1);
+}
+.sekcija-jedan-text-dugmad{
+    display: flex;
+    justify-content: flex-start;
+    gap:18px;
+}
+.sekcija-jedan-slika{
+    background-color:transparent;
+    width: 585.52px;
+    height: 501.47px;
+/* ----------------------- ??? -------------------- */
+    margin-top: 72px;
+    margin-left: 69px;
+    margin-right: 135.48px;
+    margin-bottom: 82.53px;
+}
+.slika-user{
+    width: 585.52px;
+    height: 501.47px;
+}
+
+/* =================================== Sekcija-2 -------------------- */
+
+.sekcija-2{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 96px;
+    background-color: white;
+    height: 576px;
+    width: 1440px;
+}
+
+
+.about-us-text{
+    width: 406px;
+    height: 346px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 135px;
+    margin-top: 96.53px;
+    padding-right: 20px;
+}
+.about-us-text h1{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #0A093D;
+
+
+}
+ .about-us-text h2{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #217BF4;
+
+
+}
+.about-us-text p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+    color: #656464;
+
+} 
+
+
+/* -------   unorder list ( DIV ) ---- */
+.ggg{
+    display: inline;
+    margin-left: 10px;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    color: #171648;
+
+}
+.krug1{
+    width: 15px;
+    height: 15px;
+    background-color: rgba(33, 123, 244, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.krug2{
+    width: 7px;
+    height: 7px;
+    background-color: rgba(33, 123, 244, 1);
+    border-radius: 50%;
+}
+.krg{
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+/* ==================================================== */
+
+.sekcija-2-slike{
+
+    background-color: #6e6dba;
+    
+    
+}
+
+.slk1{
+    width: 267px;
+    height: 252px;
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 498px;
+   
+}
+.slk2{
+    width: 267px;
+    height: 252px;
+    position:absolute;
+    margin-top: 304px;
+    margin-left: 498px;
+    
+    border: solid transparent;
+    border-radius: 14px;
+}
+
+
+.slk3{
+    width: 270px;
+    height: 368px;
+    position: absolute;
+    margin-top: 104px;
+    margin-left: 200px;
+
+    border: solid transparent;
+    border-radius: 14px;
+}   
+
+/* ====================================== Sekcija 3 ======== */
+
+.sekcija-3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 21px;
+    background-color: rgb(158, 47, 47);
+    height: 490px;
+    width: 1440px;
+}
+
+.box3-1{
+    height: 340px;
+    width: 336px;
+    background-color: #171648;
+    margin-left: 135px;
+}
+.box3-2{
+    height: 340px;
+    width: 336px;
+    background-color: #16148c;
+}
+.box3-3{
+    height: 322px;
+    width: 381px;
+    background-color: #0f0bd6;
+    margin-right: 135px;
+}
+
+
+
+/* ====================================== Sekcija 3 ======== */
+.sekcija-4{
+    
+    margin-top: 55px;
+    background-color: rgb(158, 143, 47);
+    height: 976px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+.box4-1{
+   
+    height: 198px;
+    width: 100%;
+    background-color: #16148c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+   
+}
+.box4-2{
+    height: 778px;
+    width: 100%;
+    background-color: #5e8c14;
+}
+
+.box4-1 p{
+    width: 421px;
+    text-align: center;
+}
+@media (min-width: 481px) and (max-width: 1200px){
+    .slika-user{
+        width: 480.52px;
+        height: 400.47px;
+    }
+}
+
+
